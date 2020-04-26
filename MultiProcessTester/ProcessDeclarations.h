@@ -1,4 +1,5 @@
 #pragma once
+#include <Windows.h>
 
 enum class START_PARAMS {
 	MAIN_PROCESS = 0,

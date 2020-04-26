@@ -5,7 +5,6 @@
 #include <process.h>
 #include <iostream>
 #include <string>
-#include <Windows.h>
 
 const long long TIME_INCREMENT = 2000;
 
