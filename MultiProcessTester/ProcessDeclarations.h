@@ -1,5 +1,13 @@
 #pragma once
 
+enum class START_PARAMS {
+	MAIN_PROCESS = 0,
+	SECONDARY_PROCESS,
+	TERTIARY_PROCESS
+};
+
+void LaunchProcess(START_PARAMS info, PROCESS_INFORMATION* process_info);
+
 class TimeTakingTask {
 public:
 	TimeTakingTask(long long duration);
